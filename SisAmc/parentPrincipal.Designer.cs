@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(parentPrincipal));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,23 +63,6 @@
             this.fileMenu.Size = new System.Drawing.Size(71, 20);
             this.fileMenu.Text = "&Cadastros";
             // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(185, 6);
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(185, 6);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
-            this.exitToolStripMenuItem.Text = "Sai&r";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
-            // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
@@ -87,8 +70,13 @@
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.newToolStripMenuItem.Text = "&Nova TF";
+            this.newToolStripMenuItem.Text = "&Calcular TF";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.ShowNewForm);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
             // 
             // saveToolStripMenuItem
             // 
@@ -107,6 +95,18 @@
             this.cadastrarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastrarUsuariosToolStripMenuItem.Text = "Cadastrar Usuarios";
             this.cadastrarUsuariosToolStripMenuItem.Click += new System.EventHandler(this.cadastrarUsuariosToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Text = "Sai&r";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
             // 
             // parentPrincipal
             // 
