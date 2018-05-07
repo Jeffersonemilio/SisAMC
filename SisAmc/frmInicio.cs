@@ -39,7 +39,7 @@ namespace SisAmc
 
             try
             {
-                // PASSA A STRING DE CONEXÃO
+                // PASSA A STRING DE CONEXÃO Git Ok
                 MySqlConnection ObjCon = new MySqlConnection(" server=localhost; port=3306; User Id=jefferson; database=mcmolas; password=root");
                 // ABRE O BANDO DE DADOS
                 ObjCon.Open();
