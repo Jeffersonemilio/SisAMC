@@ -31,5 +31,29 @@ namespace SisAmc
         {
 
         }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label57_Click(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }

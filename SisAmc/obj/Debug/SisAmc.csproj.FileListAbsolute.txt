@@ -28,3 +28,4 @@ C:\Users\DELL 3470\Documents\GitHub\SisAMC\SisAmc\obj\Debug\SisAmc.csproj.CopyCo
 C:\Users\DELL 3470\Documents\GitHub\SisAMC\SisAmc\obj\Debug\SisAmc.exe
 C:\Users\DELL 3470\Documents\GitHub\SisAMC\SisAmc\obj\Debug\SisAmc.pdb
 C:\Users\DELL 3470\Documents\GitHub\SisAMC\SisAmc\obj\Debug\SisAmc.frmCadUser.resources
+C:\Users\DELL 3470\Documents\GitHub\SisAMC\SisAmc\obj\Debug\SisAmc.CalcularTF.resources
