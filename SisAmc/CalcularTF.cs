@@ -55,5 +55,45 @@ namespace SisAmc
 
 
         }
+
+        private void label77_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label75_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label73_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label72_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label74_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label71_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label70_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox5_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
